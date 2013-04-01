@@ -157,7 +157,7 @@
 			\ ko<ESC>0xA<SPACE><SPACE>
 
 		" Use tab in normal mode to add a new line
-		nmap <tab> O<esc>
+		nmap <tab> o
 		
 		" Move between viewports using alt+arrow keys
 		nmap <silent> <A-Up> :wincmd k<CR>
