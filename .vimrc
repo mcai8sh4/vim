@@ -49,7 +49,7 @@
 		set scrolloff=8
 		"
 		" alow cursor to go anywhere
-		set virtualedit=all
+		" set virtualedit=all
 		
 		set timeoutlen=600
 		
