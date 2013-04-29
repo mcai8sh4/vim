@@ -93,7 +93,7 @@
 		else
 		   set autoindent		" always set autoindenting on
 		endif " has("autocmd")
-
+		:set formatoptions-=cro
 " Colours ----------------------------------------------------------
 "-------------------------------------------------------------------
 		if !exists("autocmd_colorscheme_loaded")
