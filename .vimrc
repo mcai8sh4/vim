@@ -93,7 +93,6 @@
 		else
 		   set autoindent		" always set autoindenting on
 		endif " has("autocmd")
-		:set formatoptions-=cro
 " Colours ----------------------------------------------------------
 "-------------------------------------------------------------------
 		if !exists("autocmd_colorscheme_loaded")
@@ -158,7 +157,7 @@
 
 		" Use tab in normal mode to add a new line
 		nmap <tab> o
-		
+	
 		" Move between viewports using alt+arrow keys
 		nmap <silent> <A-Up> :wincmd k<CR>
 		nmap <silent> <A-Down> :wincmd j<CR>
@@ -216,3 +215,4 @@
 		" Snipmate stuff
 		let g:snips_author = 'Stephen Howarth'
 
+		set formatoptions-=cro
