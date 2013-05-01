@@ -193,6 +193,7 @@
 		" Close all folds (foldlevel=0) then recursivly open the current one
 		nmap <silent> z\ zM zA
 
+		set formatoptions-=cro
 
 
 		" fold by indent by default, but also use manual folds if you wish
@@ -208,11 +209,10 @@
 
 " PLUGIN STUFF -------------------------------------------------------
 " --------------------------------------------------------------------
-		let c_cpp_comments = 1
+		let c_cpp_comments = 0
 		" NERD_tree stuff
 		nmap <silent> <F8> :NERDTreeToggle<cr>
 		
 		" Snipmate stuff
 		let g:snips_author = 'Stephen Howarth'
 
-		set formatoptions-=cro
