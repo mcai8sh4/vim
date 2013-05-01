@@ -143,7 +143,7 @@ if !exists('loaded_taglist')
     " side.  This setting is relevant only if Tlist_Use_Horiz_Window is set to
     " zero (i.e.  only for vertically split windows)
     if !exists('Tlist_Use_Right_Window')
-        let Tlist_Use_Right_Window = 0
+        let Tlist_Use_Right_Window = 1
     endif
 
     " Increase Vim window width to display vertically split taglist window.
