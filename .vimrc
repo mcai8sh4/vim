@@ -121,6 +121,7 @@
 " Key Mappings -----------------------------------------------------
 "------------------------------------------------------------------j
 		noremap <C-l> <esc>[siw<C-x>s
+		map <silent><F5> :GundoToggle<cr>
 		noremap <C-i> gi
 		"remove spaces at the end of lines
 		nmap <silent> ,dws :%s/\s\+$// <CR>
@@ -135,9 +136,6 @@
 		
 		"map Ctags list
 		map <F2> : TlistToggle<CR>
-		" Compile using make
-		map <F5> :w<cr>:!clear<CR>:make<CR>
-	   	"
 		" toggle quickfix window - if needed
 		nmap ,cw :cw<CR>
 		" close quickfix window if there are errors still present
@@ -215,4 +213,3 @@
 		
 		" Snipmate stuff
 		let g:snips_author = 'Stephen Howarth'
-
