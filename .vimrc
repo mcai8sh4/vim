@@ -103,9 +103,12 @@
 		endif
 		
 
+		syntax enable
+		set background=dark
+		colorscheme solarized
 		"colorscheme corporation
 		"colorscheme molokai
-		colorscheme darkspectrum
+		"colorscheme darkspectrum
 		"   :hi SpecialKey cterm=none ctermfg=darkgrey ctermbg=black
 		 "  :hi Normal ctermbg=none
 		   ":hi Normal ctermbg=black
